@@ -52,7 +52,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Conocimiento de estructuras y algoritmos de datos",
+    title: "Conocimiento de algoritmos y estructuras de datos",
     icon: creator,
   },
 ];
