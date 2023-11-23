@@ -192,7 +192,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/mziliotto/IADesign3D",
+    source_code_link: "https://github.com/mziliotto/IADiseno3D",
   },
   // {
   //   name: "Trip Guide",
