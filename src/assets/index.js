@@ -32,6 +32,7 @@ import ambb from "./ambb.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import portfolio3d from "./portfolio3d.png";
 
 export {
   logo,
@@ -65,4 +66,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  portfolio3d
 };

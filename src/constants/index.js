@@ -17,6 +17,7 @@ import {
   threejs,
   ambb,
   dmcolor,
+  portfolio3d
 } from "../assets";
 
 export const navLinks = [
@@ -194,27 +195,27 @@ const projects = [
     image: jobit,
     source_code_link: "https://github.com/mziliotto/IADiseno3D",
   },
-  // {
-  //   name: "Trip Guide",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
+  {
+    name: "Portfolio 3D",
+    description:
+      "WebApp interactiva en 3D que funciona como portfolio.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ThreeJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portfolio3d,
+    source_code_link: "https://github.com/mziliotto/portfolio3D",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
