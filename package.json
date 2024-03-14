@@ -1,5 +1,6 @@
 {
-  "name": "3dfolio",
+  "homepage" : "https://mziliotto/portfolio.github.io/",
+  "name": "my-website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
