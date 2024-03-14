@@ -46,8 +46,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Soy desarrollador web con experiencia en JavaScript, me especializo en frameworks como React, Vue y Three.js.
-        Cuando se trata de incorporar nuevos conocimientos suelo aprender rápido, me gusta resolver problemas y mejorar 
+        Soy desarrollador web con título en Analista de Sistemas, poseo experiencia laboral en JavaScript y no laboral en la mayoria de frameworks
+        del mercado. Cuando se trata de incorporar nuevos conocimientos suelo aprender rápido, me gusta resolver problemas y mejorar 
         procesos existentes buscando eficiencia.
       </motion.p>
 

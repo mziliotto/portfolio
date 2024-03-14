@@ -15,7 +15,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  mongodb,
   ambb,
+  docker,
   dmcolor,
   portfolio3d
 } from "../assets";
@@ -94,6 +96,14 @@ const technologies = [
   {
     name: "git",
     icon: git,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "docker",
+    icon: docker,
   },
 ];
 
@@ -198,7 +208,7 @@ const projects = [
   {
     name: "Portfolio 3D",
     description:
-      "WebApp interactiva en 3D que funciona como portfolio.",
+      "Portfolio interactivo con animaciones en 3D.",
     tags: [
       {
         name: "react",

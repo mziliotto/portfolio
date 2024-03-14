@@ -1,7 +1,9 @@
 import { motion } from "framer-motion";
-
+import { useState, Suspense, useEffect, useRef } from 'react';
+import Loader from "./canvas/Loader";
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+import { ComputersCanvas } from "./canvas/Computers";
+import { Canvas } from '@react-three/fiber'
 
 const Hero = () => {
   return (
@@ -16,7 +18,7 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hola, mi nombre es <span className='text-[#915EFF]'>Matías</span>
+            Hola! <br/> Mi nombre es <span className='text-[#915EFF]'>Matías</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
           Desarrollo efectos visuales, interfaces <br className="sm:block hidden" />
@@ -25,8 +27,16 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas />
+      <Canvas>
+      <Suspense fallback={<Loader />}>
 
+      <ComputersCanvas     
+        position={[0, -11, 0]}
+        scale = {[2.2, 2.2, 2.2]}
+      />
+
+      </Suspense>  
+      </Canvas>
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
