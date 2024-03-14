@@ -29,8 +29,9 @@ const Hero = () => {
 
       <Canvas>
       <Suspense fallback={<Loader />}>
-
-      <ComputersCanvas     
+      <hemisphereLight intensity={0.35} />
+      <pointLight intensity={-0.25} />
+      <ComputersCanvas    
         position={[0, -11, 0]}
         scale = {[2.2, 2.2, 2.2]}
       />

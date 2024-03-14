@@ -96,7 +96,6 @@ export function ComputersCanvas(props) {
   const group = useRef();
   const { nodes, materials, animations } = useGLTF(statue);
   const { actions } = useAnimations(animations, group);
-  
 
    useEffect(() => {
      actions['Take 01'].play();
@@ -105,7 +104,7 @@ export function ComputersCanvas(props) {
   return (
     <group ref={group} {...props} dispose={null}>
       <group name="Sketchfab_Scene">
-        <group name="Sketchfab_model" rotation={[-Math.PI / 1.6, 0, 0.7]}
+        <group name="Sketchfab_model" rotation={[-Math.PI / 1.7, 0, 0.75]}
          userData={{ name: "Sketchfab_model" }}
          >
           <group name="Root" userData={{ name: "Root" }}>
